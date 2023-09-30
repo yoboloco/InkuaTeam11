@@ -1,6 +1,6 @@
 # InkuaTeam11
 Trabajo de investigacion sobre ONG  's
-Tareas:
+Tareas:<br>
 1- Creacion del brief <br>
 2-Desarrollo de la investigacion. A-Analisis foda B-Analisis de mercado C-Simple estrategia de marketing<br>
 3-Contacto con las ONG's<br>
