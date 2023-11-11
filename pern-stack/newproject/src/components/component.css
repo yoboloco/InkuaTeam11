@@ -1,0 +1,120 @@
+ /*text style*/
+ .text-container {
+    background-color:rgb(174, 174, 251);
+    word-wrap: break-word;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    line-height: 1.5;
+  }
+
+  /*logo syze*/
+  .logo-image {
+    width: 100px; /* Adjust the width to your desired size */
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
+
+  /*image styles*/
+  .image{
+    height: 10%;
+    width: 100%;
+  }
+
+  
+  /*form styles*/
+
+  /* Form styles */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/*Agregar tarea styles*/
+.create-project-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.create-project-box h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.input-container {
+  margin: 10px 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

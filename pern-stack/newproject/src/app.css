@@ -1,0 +1,40 @@
+.sample-css{
+    background-color: green;
+    color:white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(121, 184, 163);
+    padding: 10px;
+
+
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar-menu li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo{
+    color: wheat;
+    font-size: 20px;
+}
+
+/*background colors*/
+
+/* Default background color for all pages */
+body {
+    background-color:#adefb6; /* Use your desired color here */
+  }
+  
+ 
