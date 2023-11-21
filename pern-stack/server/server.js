@@ -2,6 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { Pool } = require('pg');
 const cors = require('cors');
+const multer = require('multer');
+
+// In your server.js (or wherever your server setup is)
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -14,6 +18,7 @@ const pool = new Pool({
   password: 'admin',
   port: 5432,
 });
+
 
 // Add middleware for handling JSON data
 app.use(bodyParser.json());
@@ -35,14 +40,14 @@ pool.on('error', (err, client) => {
 app.use(cors({ origin: 'http://localhost:3000' }));
 
 // Define your routes and middleware
-app.use(express.json());
+app.use(express.json({limit:"25mb"}));
 
 // Include the endpoints router
 app.use('/api', endpointsRouter);
 
 // Additional CORS configuration for the specific route
 // Allow this route to receive requests from a different origin, if needed.
-app.post('/api/insertLongText', cors({ origin: 'http://localhost:3000' }), endpointsRouter);
+app.post('/api/upload', cors({ origin: 'http://localhost:3000' }), endpointsRouter);
 
 // Start the Express server
 app.listen(PORT, () => {

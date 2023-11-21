@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import Text from '../components/text'
 import Image from '../components/image'
-import CreateProjectBox from '../components/AgregarT'
+import ProjectForm from '../components/AgregarDescripcion'
+
 
 function Secondpage() {
   return (
@@ -10,7 +11,8 @@ function Secondpage() {
         <Navbar/>
         <Text/>
         secondpage
-        <CreateProjectBox/>
+        <ProjectForm/>
+        
 
         <Image/>
 

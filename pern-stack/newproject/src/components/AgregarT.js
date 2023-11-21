@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 
 function CreateProjectBox() {
   const [description, setDescription] = useState('');
@@ -28,7 +28,9 @@ function CreateProjectBox() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ longText: description }),
+        
+
+       body: JSON.stringify({ longText: description }),
       });
   
       if (response.ok) {
@@ -73,5 +75,66 @@ function CreateProjectBox() {
     </div>
   );
 }
+*/
+
+//tryng to send image and entire text
+
+import React, { useState } from 'react';
+
+const CreateProjectBox = () => {
+  const [image, setImage] = useState(null);
+
+  const handleImageChange = (e) => {
+    const selectedImage = e.target.files[0];
+    if (selectedImage) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        setImage(reader.result);
+      };
+      reader.readAsDataURL(selectedImage);
+    }
+  };
+
+  const handleUpload = async () => {
+    try {
+      if (!image) {
+        console.error('No image selected for upload.');
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append('image', image);
+
+      const response = await fetch('http://localhost:5000/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log('Image uploaded successfully to Cloudinary. URL:', data.url);
+        setImage(null);
+      } else {
+        console.error('Failed to upload image to Cloudinary.');
+      }
+    } catch (error) {
+      console.error('An error occurred:', error);
+    }
+  };
+
+  return (
+    <div>
+      <h2>Upload Image</h2>
+      <div>
+        <input type="file" accept="image/*" onChange={handleImageChange} />
+      </div>
+      {image && <img src={image} alt="Preview" style={{ maxWidth: '100%', marginTop: '10px' }} />}
+      <div>
+        <button onClick={handleUpload}>Upload Image</button>
+      </div>
+    </div>
+  );
+};
 
 export default CreateProjectBox;
+

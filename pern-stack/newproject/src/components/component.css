@@ -47,7 +47,7 @@
 }
 
 .form-container button {
-  background-color: #007bff;
+  background-color: #63a8f3;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -57,7 +57,7 @@
 }
 
 .form-container button:hover {
-  background-color: #0056b3;
+  background-color: #6caaec;
 }
 
 /*Agregar tarea styles*/
@@ -118,3 +118,55 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+
+/*Agregar d styles*/
+.centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.project-form-container {
+  background-color: #f0f5e1; /* Pastel green */
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 400px; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #576574; /* Pastel blue */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #a4b0be; /* Pastel gray */
+  border-radius: 4px;
+}
+
+button {
+  background-color: #70a1ff; /* Pastel blue */
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e90ff; /* Darker blue on hover */
+}
+
+
