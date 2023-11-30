@@ -10,6 +10,8 @@ Nuestro proyecto consiste en una investigación que nos permita evaluar la viabi
 Este software tiene como principal objetivo brindar herramientas que ayuden a la gestión de los proyectos, agilizando procesos y mejorando las relaciones entre los encargados y voluntarios de cada ONG´S.
 Algunas de las tareas que buscamos optimizar son la descripción detallada de cada uno de los proyectos que se están realizando, los gastos que se deben afrontar al ir avanzando con las diferentes etapas, las donaciones, capacitación e inscripción de voluntariado (según sea necesario), etc. 
 
+Dicha investigación fue estructurada en un análisis de tipo “FODA”, para comprender el mercado, y también de una simple estrategia de marketing digital que permitirá captar flujo de visitantes a la app y Ongs. Como muestra final se creó la app web en el stack PERN.
+
 ## Objetivo principal
 Realizar una investigación de factibilidad para la creación de una aplicación.
 
@@ -24,6 +26,20 @@ Para realizar este proyecto tuvimos en cuenta diferentes factores que buscamos m
 Recaudar fondos: al depender de las donaciones para realizar las actividades es de vital importancia que consigan financiación a través de donaciones, brindando información sobre las campañas y las maneras de contribuir a cada uno de los proyectos.
 * Evolución: al utilizar herramientas digitales se demuestra la capacidad de las ONG´S para adaptarse a las nuevas tecnologías que surgen, lo que da a entender que están en constante cambio y buscan evolucionar y lograr sus objetivos utilizando todas las herramientas con las que puedan contar.
 
+
+## Integrantes del grupo
+| Integrantes |
+| ------------ |
+| Joaquin Avaro Acosta  | 
+| Jose Roberto Emmanuel Perez |
+| Jessica Viola |
+| Alexis Facundo Llantén |
+| Lourdes Rebolledo |
+| Lujan Rebolledo |
+| Iván De La Fuente |
+| Luciana Serezo |
+| Fernando Daniel Calisaya |
+| Uriel Olguin |
 
 
 Para llevar a cabo nuestro proyecto decidimos realizar tareas para organizar la forma de trabajo, logrando asi una mayor eficacia.
