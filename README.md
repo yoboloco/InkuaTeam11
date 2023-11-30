@@ -16,7 +16,7 @@ Dicha investigación fue estructurada en un análisis de tipo “FODA”, para c
 Realizar una investigación de factibilidad para la creación de una aplicación.
 
 
-##¿Qué buscamos lograr con el desarrollo de la aplicación?
+## ¿Qué buscamos lograr con el desarrollo de la aplicación?
 Para realizar este proyecto tuvimos en cuenta diferentes factores que buscamos mejorar con la utilización de la aplicación, de esta forma ayudaremos a las  ONGS para brindarles herramientas que optimicen su funcionamiento.
 
 * Optimización: tanto de los proyectos que se están desarrollando, como así también de los recursos necesarios para llevarlos a cabo. Esto permite manejar los recursos disponibles, el personal que desarrolla las diferentes tareas, gestionar donaciones, captar nuevos voluntarios y beneficiarios, en resumen nos permite mejorar el manejo de los proyectos y recursos disponibles.
